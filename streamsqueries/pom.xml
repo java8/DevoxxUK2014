@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>rgurma</groupId>
-    <artifactId>java8workshop</artifactId>
+	<artifactId>streamsexercises</artifactId>
     <version>1.0</version>
 
     <properties>
