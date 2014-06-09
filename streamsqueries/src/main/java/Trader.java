@@ -4,7 +4,8 @@
 public  class Trader{
 
     private final String name;
-    private final String city;
+    // not final on purpose for one exercise
+    private String city;
 
     public Trader(String n, String c){
         this.name = n;
@@ -17,6 +18,10 @@ public  class Trader{
 
     public String getCity(){
         return this.city;
+    }
+
+    public void SetCity(String city){
+        this.city = city;
     }
 
     public String toString(){

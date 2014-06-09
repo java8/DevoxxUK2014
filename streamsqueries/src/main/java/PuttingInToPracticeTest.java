@@ -34,13 +34,6 @@ public class PuttingInToPracticeTest {
         );
     }
 
-    /*
-
-1000
-{Trader:Brian in Cambridge, year: 2011, value:300}
-{Trader:Raoul in Cambridge, year: 2012, value:1000}
-     */
-
     @Test
     public void testStream1(){
         //TODO: Find all transactions from year 2011 and sort them by value (small to high).
@@ -117,6 +110,7 @@ public class PuttingInToPracticeTest {
     @Test
     public void testStream7(){
         //TODO: What's the highest value in all the transactions?
+        // you can assume a default max of 0
         int highestValue = 0;
 
 
@@ -149,6 +143,7 @@ public class PuttingInToPracticeTest {
     @Test
     public void testStream10(){
         //TODO: Create a Map<String, Integer> that maps each Trader's name with its highest Transaction value
+        // you can assume a default max of 0
         Map<String, Integer> mapNameToHighestValue = new HashMap<>();
 
 
@@ -177,6 +172,7 @@ public class PuttingInToPracticeTest {
     @Test
     public void testStream12(){
         //TODO: Create a Map<Integer, Integer> that maps each year with the highest transaction value of that year
+        // you can assume a default max of 0
         Map<Integer, Integer> yearToHighestValue = new HashMap<>();
 
 
